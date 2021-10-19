@@ -1,13 +1,9 @@
-// Program to print BFS traversal from a given 
-// source vertex. BFS(int s) traverses vertices 
-// reachable from s. 
 #include<iostream> 
 #include <list> 
 
 using namespace std; 
 
-// This class represents a directed graph using 
-// adjacency list representation 
+
 class Graph 
 { 
 	int V; // No. of vertices 
@@ -75,10 +71,8 @@ void Graph::BFS(int s)
 	} 
 } 
 
-// Driver program to test methods of graph class 
 int main() 
 { 
-	// Create a graph given in the above diagram 
 	Graph g(4); 
 	g.addEdge(0, 1); 
 	g.addEdge(0, 2); 
