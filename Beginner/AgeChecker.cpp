@@ -1,4 +1,4 @@
-//Input The Age, if age > 18 print adult , if 10 < age <= 18 print teen, if age < 10 print child
+//Input The Age, if age > 18 print adult , if 10 < age <= 18 print teenager, if age < 10 print child
 int main(){
   int age;
   cin>>age;
@@ -9,6 +9,6 @@ int main(){
     cout<<"Child"<<endl;
   }
   else{
-    cout<<"Teen"<<endl;
+    cout<<"Teenager"<<endl;
   }
 }
